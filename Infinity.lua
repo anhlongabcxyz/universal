@@ -1,4 +1,4 @@
-"-- infinity function --"
+-- infinity function 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
