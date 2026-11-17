@@ -66,7 +66,7 @@ stroke.Thickness = 1.2
 stroke.Parent = button
 
 local function updateButton()
-    button.Text = enabled and "VÔ HẠN HẠN: ON" or "VÔ HẠN HẠN: OFF"
+    button.Text = enabled and "VÔ HẠ HẠN: ON" or "VÔ HẠ HẠN: OFF"
     button.BackgroundColor3 = enabled
         and Color3.fromRGB(238, 240, 245)
         or Color3.fromRGB(18, 18, 18)
