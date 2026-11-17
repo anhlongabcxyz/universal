@@ -1,19 +1,3 @@
-local TextChatService = game:GetService("TextChatService")
-
-local function SendChatMessage(message)
-    -- Check if the new TextChatService is being used
-    if TextChatService.ChatVersion == Enum.ChatVersion.TextChatService then
-        -- Send message using the new TextChatService
-        local textChannel = TextChatService.TextChannels.RBXGeneral
-        textChannel:SendAsync(message)
-    else
-        -- Send message using the default chat system
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
-    end
-end
-
-SendChatMessage("Part Claim is On")
-
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
