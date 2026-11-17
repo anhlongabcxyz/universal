@@ -1,5 +1,5 @@
 -- part claim
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Universal-Part-Claim-25105"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlongabcxyz/universal/refs/heads/main/Partclaim.lua"))()
 -- sound
 local soundId = "rbxassetid://122261039674349"
 
