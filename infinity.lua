@@ -222,8 +222,8 @@ end
 setupCharacter(character)
 
 -- Infinity settings and loop
-local FREEZE_START_DISTANCE = 26
-local WALL_DISTANCE = 10
+local FREEZE_START_DISTANCE = 52
+local WALL_DISTANCE = 20
 local PUSH_FORCE = 100000
 local PUSH_OUT_SPEED = 40
 
